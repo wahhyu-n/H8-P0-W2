@@ -1,8 +1,8 @@
 function perkalianUnik(arr){
     var array=[]
-    for(a=0; a<arr.length; a++){
+    for(var a=0; a<arr.length; a++){
         var arrTemp=1;
-        for(b=0; b<arr.length; b++){
+        for(var b=0; b<arr.length; b++){
             if(a!==b){//fungsi var a & b agar salah satu indeks tdk dihitung perkalian
                 arrTemp *= arr[b];//mereplace 1 dg 4; 4*6;
             }
