@@ -1,7 +1,7 @@
 function pasanganTerbesar(num){
     var numString = num.toString()
     // var numArr = [];
-    var terbesar = numString[0] + numString[1]
+    var terbesar = Number(numString[0] + numString[1]);
     for(var a=0; a<numString.length; a++){
         
         var numCheck = numString[a] + numString[a+1];
