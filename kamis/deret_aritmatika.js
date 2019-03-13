@@ -2,7 +2,7 @@ function tentukanDeretAritmatika(arr){
 var deret=arr[1]-arr[0];
 //var result;
 //var c;
-for(a=1; a<arr.length; a++){
+for(var a=1; a<arr.length; a++){
     if(arr[a] !== arr[a-1] + deret){
         return false;
     }
