@@ -1,6 +1,6 @@
 function dataHandling(input){
     
-    for(var i=0; i<input.length-1; i++){
+    for(var i=0; i<input.length; i++){
         console.log('Nomor ID : '+input[i][0]+'\n'+'Nama Lengkap: '+input[i][1]+'\n'+'TTL: '+input[i][2]+', '+input[i][3]+'\n'+'Hobi: '+input[i][4]+'\n \n')
     }
 }
