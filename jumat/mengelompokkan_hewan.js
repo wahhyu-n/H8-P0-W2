@@ -17,7 +17,7 @@ function groupAnimals(animals) {
     // }
     var result = [];//array hasil pengelompokkan hewan
     animals.sort();// fungsi sorting animals
-    for(var i = 0; i< animals.length; i++){0<5
+    for(var i = 0; i< animals.length; i++){//0<5
         var found = false;
 
         for(var j = 0; j<result.length; j++){//setelah di push ada 1, lalu dicocokkan huruf pertama
